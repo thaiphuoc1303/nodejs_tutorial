@@ -7,7 +7,8 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "nodemon --inspect src/index.js",
+    /* "start": "nodemon --inspect src/index.js",*/
+    "start": "node ./bin/www",
     "watch": "node-sass -w src/views/scss/ -o src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
