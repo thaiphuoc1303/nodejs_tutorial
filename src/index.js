@@ -15,9 +15,16 @@ app.set('view engine', '.hbs')
 app.set('views', path.join(__dirname, './views'))
 
 
+//routes
+
 app.get('/', (req, res) => {
     res.render('home')
   })
+
+  
+
+
+
   
   app.listen(port, () => {
     console.log(`Example app listening on port http://localhost:${port}`)

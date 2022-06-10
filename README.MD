@@ -2,8 +2,8 @@
 
 ### Setup:
 
-git clone https://github.com/thaiphuoc1303/nodejs_tutorial.git
 ```command
+git clone https://github.com/thaiphuoc1303/nodejs_tutorial.git
 npm init
 npm i express
 npm install nodemon --save-dev
